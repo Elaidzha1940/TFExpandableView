@@ -15,6 +15,9 @@
 		E4B434412C525868004392EF /* TFExpandableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434402C525868004392EF /* TFExpandableViewUITests.swift */; };
 		E4B434432C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434422C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift */; };
 		E4B434502C5258D6004392EF /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4344F2C5258D6004392EF /* ExpandableView.swift */; };
+		E4B434522C525B36004392EF /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434512C525B36004392EF /* ThumbnailView.swift */; };
+		E4B434542C525BA7004392EF /* ExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434532C525BA7004392EF /* ExpandedView.swift */; };
+		E4B434562C526AD3004392EF /* ExpandableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434552C526AD3004392EF /* ExpandableViewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		E4B434402C525868004392EF /* TFExpandableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFExpandableViewUITests.swift; sourceTree = "<group>"; };
 		E4B434422C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFExpandableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E4B4344F2C5258D6004392EF /* ExpandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
+		E4B434512C525B36004392EF /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		E4B434532C525BA7004392EF /* ExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedView.swift; sourceTree = "<group>"; };
+		E4B434552C526AD3004392EF /* ExpandableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 				E4B434292C525868004392EF /* Assets.xcassets */,
 				E4B4342B2C525868004392EF /* Preview Content */,
 				E4B4344F2C5258D6004392EF /* ExpandableView.swift */,
+				E4B434512C525B36004392EF /* ThumbnailView.swift */,
+				E4B434532C525BA7004392EF /* ExpandedView.swift */,
+				E4B434552C526AD3004392EF /* ExpandableViewData.swift */,
 			);
 			path = TFExpandableView;
 			sourceTree = "<group>";
@@ -260,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B434522C525B36004392EF /* ThumbnailView.swift in Sources */,
 				E4B434282C525867004392EF /* ContentView.swift in Sources */,
 				E4B434502C5258D6004392EF /* ExpandableView.swift in Sources */,
+				E4B434542C525BA7004392EF /* ExpandedView.swift in Sources */,
+				E4B434562C526AD3004392EF /* ExpandableViewData.swift in Sources */,
 				E4B434262C525867004392EF /* TFExpandableViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -408,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
