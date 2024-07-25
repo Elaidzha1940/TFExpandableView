@@ -1,9 +1,11 @@
+//  /*
 //
-//  ExpandedView.swift
-//  TFExpandableView
+//  Project: TFExpandableView
+//  File: ExpandedView.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 25.07.2024
 //
-//  Created by Elaidzha Shchukin on 25.07.2024.
-//
+//  */
 
 import SwiftUI
 
