@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4B434262C525867004392EF /* TFExpandableViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434252C525867004392EF /* TFExpandableViewApp.swift */; };
+		E4B434282C525867004392EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434272C525867004392EF /* ContentView.swift */; };
+		E4B4342A2C525868004392EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B434292C525868004392EF /* Assets.xcassets */; };
+		E4B4342D2C525868004392EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B4342C2C525868004392EF /* Preview Assets.xcassets */; };
+		E4B434372C525868004392EF /* TFExpandableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434362C525868004392EF /* TFExpandableViewTests.swift */; };
+		E4B434412C525868004392EF /* TFExpandableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434402C525868004392EF /* TFExpandableViewUITests.swift */; };
+		E4B434432C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B434422C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift */; };
+		E4B434502C5258D6004392EF /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4344F2C5258D6004392EF /* ExpandableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4B434332C525868004392EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B4341A2C525867004392EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B434212C525867004392EF;
+			remoteInfo = TFExpandableView;
+		};
+		E4B4343D2C525868004392EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B4341A2C525867004392EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B434212C525867004392EF;
+			remoteInfo = TFExpandableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4B434222C525867004392EF /* TFExpandableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFExpandableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B434252C525867004392EF /* TFExpandableViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFExpandableViewApp.swift; sourceTree = "<group>"; };
+		E4B434272C525867004392EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4B434292C525868004392EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4B4342C2C525868004392EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4B434322C525868004392EF /* TFExpandableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFExpandableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B434362C525868004392EF /* TFExpandableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFExpandableViewTests.swift; sourceTree = "<group>"; };
+		E4B4343C2C525868004392EF /* TFExpandableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFExpandableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B434402C525868004392EF /* TFExpandableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFExpandableViewUITests.swift; sourceTree = "<group>"; };
+		E4B434422C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFExpandableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4B4344F2C5258D6004392EF /* ExpandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B4341F2C525867004392EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B4342F2C525868004392EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B434392C525868004392EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4B434192C525867004392EF = {
+			isa = PBXGroup;
+			children = (
+				E4B434242C525867004392EF /* TFExpandableView */,
+				E4B434352C525868004392EF /* TFExpandableViewTests */,
+				E4B4343F2C525868004392EF /* TFExpandableViewUITests */,
+				E4B434232C525867004392EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B434232C525867004392EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4B434222C525867004392EF /* TFExpandableView.app */,
+				E4B434322C525868004392EF /* TFExpandableViewTests.xctest */,
+				E4B4343C2C525868004392EF /* TFExpandableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B434242C525867004392EF /* TFExpandableView */ = {
+			isa = PBXGroup;
+			children = (
+				E4B434252C525867004392EF /* TFExpandableViewApp.swift */,
+				E4B434272C525867004392EF /* ContentView.swift */,
+				E4B434292C525868004392EF /* Assets.xcassets */,
+				E4B4342B2C525868004392EF /* Preview Content */,
+				E4B4344F2C5258D6004392EF /* ExpandableView.swift */,
+			);
+			path = TFExpandableView;
+			sourceTree = "<group>";
+		};
+		E4B4342B2C525868004392EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4B4342C2C525868004392EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4B434352C525868004392EF /* TFExpandableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4B434362C525868004392EF /* TFExpandableViewTests.swift */,
+			);
+			path = TFExpandableViewTests;
+			sourceTree = "<group>";
+		};
+		E4B4343F2C525868004392EF /* TFExpandableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4B434402C525868004392EF /* TFExpandableViewUITests.swift */,
+				E4B434422C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift */,
+			);
+			path = TFExpandableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B434212C525867004392EF /* TFExpandableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B434462C525868004392EF /* Build configuration list for PBXNativeTarget "TFExpandableView" */;
+			buildPhases = (
+				E4B4341E2C525867004392EF /* Sources */,
+				E4B4341F2C525867004392EF /* Frameworks */,
+				E4B434202C525867004392EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFExpandableView;
+			productName = TFExpandableView;
+			productReference = E4B434222C525867004392EF /* TFExpandableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4B434312C525868004392EF /* TFExpandableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B434492C525868004392EF /* Build configuration list for PBXNativeTarget "TFExpandableViewTests" */;
+			buildPhases = (
+				E4B4342E2C525868004392EF /* Sources */,
+				E4B4342F2C525868004392EF /* Frameworks */,
+				E4B434302C525868004392EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4B434342C525868004392EF /* PBXTargetDependency */,
+			);
+			name = TFExpandableViewTests;
+			productName = TFExpandableViewTests;
+			productReference = E4B434322C525868004392EF /* TFExpandableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4B4343B2C525868004392EF /* TFExpandableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B4344C2C525868004392EF /* Build configuration list for PBXNativeTarget "TFExpandableViewUITests" */;
+			buildPhases = (
+				E4B434382C525868004392EF /* Sources */,
+				E4B434392C525868004392EF /* Frameworks */,
+				E4B4343A2C525868004392EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4B4343E2C525868004392EF /* PBXTargetDependency */,
+			);
+			name = TFExpandableViewUITests;
+			productName = TFExpandableViewUITests;
+			productReference = E4B4343C2C525868004392EF /* TFExpandableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B4341A2C525867004392EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E4B434212C525867004392EF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E4B434312C525868004392EF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E4B434212C525867004392EF;
+					};
+					E4B4343B2C525868004392EF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E4B434212C525867004392EF;
+					};
+				};
+			};
+			buildConfigurationList = E4B4341D2C525867004392EF /* Build configuration list for PBXProject "TFExpandableView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4B434192C525867004392EF;
+			productRefGroup = E4B434232C525867004392EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B434212C525867004392EF /* TFExpandableView */,
+				E4B434312C525868004392EF /* TFExpandableViewTests */,
+				E4B4343B2C525868004392EF /* TFExpandableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4B434202C525867004392EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B4342D2C525868004392EF /* Preview Assets.xcassets in Resources */,
+				E4B4342A2C525868004392EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B434302C525868004392EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B4343A2C525868004392EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B4341E2C525867004392EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B434282C525867004392EF /* ContentView.swift in Sources */,
+				E4B434502C5258D6004392EF /* ExpandableView.swift in Sources */,
+				E4B434262C525867004392EF /* TFExpandableViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B4342E2C525868004392EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B434372C525868004392EF /* TFExpandableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B434382C525868004392EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B434412C525868004392EF /* TFExpandableViewUITests.swift in Sources */,
+				E4B434432C525868004392EF /* TFExpandableViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4B434342C525868004392EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B434212C525867004392EF /* TFExpandableView */;
+			targetProxy = E4B434332C525868004392EF /* PBXContainerItemProxy */;
+		};
+		E4B4343E2C525868004392EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B434212C525867004392EF /* TFExpandableView */;
+			targetProxy = E4B4343D2C525868004392EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B434442C525868004392EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4B434452C525868004392EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B434472C525868004392EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TFExpandableView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elishchukin0491-gmail.com.TFExpandableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4B434482C525868004392EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TFExpandableView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elishchukin0491-gmail.com.TFExpandableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4B4344A2C525868004392EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elishchukin0491-gmail.com.TFExpandableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFExpandableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TFExpandableView";
+			};
+			name = Debug;
+		};
+		E4B4344B2C525868004392EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elishchukin0491-gmail.com.TFExpandableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFExpandableView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TFExpandableView";
+			};
+			name = Release;
+		};
+		E4B4344D2C525868004392EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elishchukin0491-gmail.com.TFExpandableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFExpandableView;
+			};
+			name = Debug;
+		};
+		E4B4344E2C525868004392EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "elishchukin0491-gmail.com.TFExpandableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFExpandableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B4341D2C525867004392EF /* Build configuration list for PBXProject "TFExpandableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B434442C525868004392EF /* Debug */,
+				E4B434452C525868004392EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B434462C525868004392EF /* Build configuration list for PBXNativeTarget "TFExpandableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B434472C525868004392EF /* Debug */,
+				E4B434482C525868004392EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B434492C525868004392EF /* Build configuration list for PBXNativeTarget "TFExpandableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B4344A2C525868004392EF /* Debug */,
+				E4B4344B2C525868004392EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B4344C2C525868004392EF /* Build configuration list for PBXNativeTarget "TFExpandableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B4344D2C525868004392EF /* Debug */,
+				E4B4344E2C525868004392EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B4341A2C525867004392EF /* Project object */;
+}
